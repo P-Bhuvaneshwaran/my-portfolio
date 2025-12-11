@@ -1,0 +1,94 @@
+/* Contact */
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+}
+#contact h2{
+    text-align: center;
+}
+
+.form-cont{
+    width: 100%;
+}
+.input-fields{
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.input-fields label{
+    /* font-weight: bold; */
+    font-size: 14px;
+    padding-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-fields input, textarea{
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.input-fields button{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.social-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    /* background-color: lightblue; */
+}
+
+.social-contact{
+    width: 100px;
+    padding: 0.8rem;
+    margin: 20px 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+
+.social-contact:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+.social-contact a{
+    /* color: g; */
+}
+.social-contact a i{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.social-contact  p{
+    font-size: 14px;
+}
+
+.social-contact:nth-child(1):hover i{
+    color: orangered;
+}
+.social-contact:nth-child(2):hover i{
+    color: green;
+}
+
+
+@media (max-width:768px){
+    #contact{
+        align-items: none;       
+    }
+}
+
+@media (min-width:1024px){
+    .form-cont{
+        width: 380px;
+    }
+}

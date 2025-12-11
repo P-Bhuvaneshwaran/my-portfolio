@@ -1,0 +1,71 @@
+#home{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-content: center;
+    gap: 20px;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container .profile p{
+    text-align: center;
+    padding: 8px 0px;
+}
+.home-container .profile p:nth-child(2){
+    font-weight: bold;
+    font-size: 34px;
+}
+.home-container .profile p:nth-child(3){
+    font-size: 24px;
+}
+
+.home-container .btn-div{
+    text-align: center;
+    margin-top: 15px;
+}
+.btn-social-div{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.btn-div button{
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 5px;
+
+}
+.btn-div button,.btn-social-div button{
+    border: 1px solid lightgray;
+}
+.btn-social-div button{
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0px 2px;
+}
+
+.btn-div button:nth-child(1){
+    background-color: black;
+}
+.btn-div button:nth-child(1) a{
+    color: white;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid lightgray;
+} 
+
+.btn-div button:hover{
+    background-color: black;
+}
+
+.btn-social-div button:hover{
+    background-color: rgb(105, 8, 161);
+}
+button:hover a{
+    color: white;
+}
+
